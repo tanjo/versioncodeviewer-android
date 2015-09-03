@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/version_code_viewer_show_viewer_activity_linearlayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".VersionCodeViewerMainActivity" >
+
+    <ListView
+        android:id="@+id/version_code_viewer_show_viewer_activity_listview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:orientation="vertical" >
+    </ListView>
+
+</LinearLayout>
